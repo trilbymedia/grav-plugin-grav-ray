@@ -1,0 +1,45 @@
+name: Grav Ray
+slug: grav-ray
+type: plugin
+version: 1.0.0
+description: Grav plugin for the Ray debugger app
+icon: bug
+author:
+  name: Trilby Media
+  email: hello@trilby.media
+homepage: https://github.com/trilbymedia/grav-plugin-grav-ray
+demo: http://demo.yoursite.com
+keywords: grav, plugin, etc
+bugs: https://github.com/trilbymedia/grav-plugin-grav-ray/issues
+docs: https://github.com/trilbymedia/grav-plugin-grav-ray/blob/develop/README.md
+license: MIT
+
+dependencies:
+  - { name: grav, version: '>=1.6.0' }
+
+form:
+  validation: loose
+  fields:
+    enabled:
+      type: toggle
+      label: PLUGIN_ADMIN.PLUGIN_STATUS
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+    host:
+      type: text
+      label: Host
+      help: The host used to communicate with the Ray app
+      default: 'localhost'
+
+    port:
+      type: number
+      label: Port
+      help: The port number used to communicate with the Ray app.
+      default: 23517
+      validate:
+        type: int

@@ -1,0 +1,25 @@
+{
+  "name": "trilbymedia/grav-ray",
+  "type": "grav-plugin",
+  "description": "Grav plugin for the Ray debugger app",
+  "keywords": ["plugin"],
+  "homepage": "https://github.com/trilbymedia/grav-plugin-grav-ray",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Trilby Media",
+      "email": "hello@trilby.media",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.1.3",
+    "spatie/ray": "^1.41"
+  },
+  "autoload": {
+    "psr-4": {
+      "Grav\\Plugin\\GravRay\\": "classes/"
+    },
+    "classmap":  ["grav-ray.php"]
+  }
+}
