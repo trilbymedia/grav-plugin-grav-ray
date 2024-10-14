@@ -15,7 +15,7 @@ docs: https://github.com/trilbymedia/grav-plugin-grav-ray/blob/develop/README.md
 license: MIT
 
 dependencies:
-  - { name: grav, version: '>=1.6.0' }
+  - { name: grav, version: '>=1.7.0' }
 
 form:
   validation: loose
