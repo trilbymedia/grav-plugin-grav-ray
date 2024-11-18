@@ -69,6 +69,6 @@ There is a basic Twig integration that you supports the multiple variables, but 
 
 ## Credits
 
-Obviously this plugin would not exists if it wasn't for Spatie's Ray Debugger. Thanks to them for the license I used to test and develop this plugin.
+Obviously this plugin would not exists if it wasn't for Spatie's Ray Debugger. Thanks to them for the license I used to test and develop this plugin..
 
 
