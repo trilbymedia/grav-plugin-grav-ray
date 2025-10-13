@@ -56,8 +56,7 @@ Note that if you use the Admin Plugin, a file with your configuration named grav
 
 Ray has many powerful methods that can be called via PHP. Check out the full docs for details: https://myray.app/docs/php/vanilla-php/reference
 
-There is a basic Twig integration that you supports the multiple variables, but does not support any of the advanced functionality like labels, colors, images, links, HTML, etc.
-
+Twig helpers now return a proxy that mirrors the full Ray API, so you can chain advanced helpers directly in templates.
 
 ```twig
 {# Twig function with multiple variables #}
@@ -65,10 +64,13 @@ There is a basic Twig integration that you supports the multiple variables, but 
 
 {# Twig filter example #}
 {{ page.header|ray }}
+
+{# Fluent helpers are supported #}
+{% do ray(page.title).blue().label('Page title') %}
+{% do ray().image(page.media.images|first) %}
 ```
 
 ## Credits
 
 Obviously this plugin would not exists if it wasn't for Spatie's Ray Debugger. Thanks to them for the license I used to test and develop this plugin..
-
 
