@@ -2,6 +2,76 @@
 
 All notable changes to `ray` will be documented in this file
 
+## 1.41.6 - 2025-03-21
+
+### What's Changed
+
+* Use static:: instead of self:: for late static binding by @TumTum in https://github.com/spatie/ray/pull/970
+
+### New Contributors
+
+* @TumTum made their first contribution in https://github.com/spatie/ray/pull/970
+
+**Full Changelog**: https://github.com/spatie/ray/compare/1.41.5...1.41.6
+
+## 1.41.5 - 2025-02-14
+
+### What's Changed
+
+* Update Dependencies by @sweptsquash in https://github.com/spatie/ray/pull/955
+* Bump dependabot/fetch-metadata from 2.2.0 to 2.3.0 by @dependabot in https://github.com/spatie/ray/pull/961
+* Laravel 12.x Compatibility by @laravel-shift in https://github.com/spatie/ray/pull/966
+
+### New Contributors
+
+* @laravel-shift made their first contribution in https://github.com/spatie/ray/pull/966
+
+**Full Changelog**: https://github.com/spatie/ray/compare/1.41.4...1.41.5
+
+## 1.41.4 - 2024-12-09
+
+### What's Changed
+
+* Provide backwards compatibility with PHPStan 1.x. by @pfrenssen in https://github.com/spatie/ray/pull/952
+
+### New Contributors
+
+* @pfrenssen made their first contribution in https://github.com/spatie/ray/pull/952
+
+**Full Changelog**: https://github.com/spatie/ray/compare/1.41.3...1.41.4
+
+## 1.41.3 - 2024-12-02
+
+### What's Changed
+
+* Fixes an issue where some complex variables would not be shown in Ray.
+* Bump dependabot/fetch-metadata from 2.0.0 to 2.1.0 by @dependabot in https://github.com/spatie/ray/pull/909
+* Bump dependabot/fetch-metadata from 2.1.0 to 2.2.0 by @dependabot in https://github.com/spatie/ray/pull/928
+* Add support for PHPStan 2.0 by @sweptsquash in https://github.com/spatie/ray/pull/946
+
+### New Contributors
+
+* @sweptsquash made their first contribution in https://github.com/spatie/ray/pull/946
+
+**Full Changelog**: https://github.com/spatie/ray/compare/1.41.2...1.41.3
+
+## 1.41.2 - 2024-04-24
+
+### What's Changed
+
+* Bump dependabot/fetch-metadata from 1.6.0 to 2.0.0 by @dependabot in https://github.com/spatie/ray/pull/900
+* Fixes `Typed property Symfony\Component\VarDumper\Dumper\CliDumper::$colors must not be accessed before initialization` by @crynobone in https://github.com/spatie/ray/pull/885
+* Make implicit nullable param to explicit (PHP 8.4 compatibility) by @GromNaN in https://github.com/spatie/ray/pull/903
+* Add branch-alias for version 1.x by @GromNaN in https://github.com/spatie/ray/pull/905
+* Remove trailing comma from JSON by @GromNaN in https://github.com/spatie/ray/pull/906
+* Last explicit nullable param (PHP 8.4 compatibility) by @GromNaN in https://github.com/spatie/ray/pull/908
+
+### New Contributors
+
+* @GromNaN made their first contribution in https://github.com/spatie/ray/pull/903
+
+**Full Changelog**: https://github.com/spatie/ray/compare/1.41.1...1.41.2
+
 ## 1.41.1 - 2024-01-25
 
 **Full Changelog**: https://github.com/spatie/ray/compare/1.41.0...1.41.1

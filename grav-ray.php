@@ -3,9 +3,12 @@ namespace Grav\Plugin;
 
 use Composer\Autoload\ClassLoader;
 use Grav\Common\Plugin;
+use Grav\Plugin\GravRay\TwigRayProxy;
+use Grav\Plugin\GravRay\TwigOriginFactory;
 use Spatie\Ray\Client;
 use Spatie\Ray\PayloadFactory;
 use Spatie\Ray\Ray;
+use Spatie\Ray\Payloads\Payload;
 use Spatie\Ray\Settings\SettingsFactory;
 use Twig\TwigFilter;
 use Twig\TwigFunction;
@@ -60,6 +63,7 @@ class GravRayPlugin extends Plugin
         $options = $this->config();
         $client = new Client($options['port'], $options['host']);
         Ray::create($client);
+        Payload::$originFactoryClass = TwigOriginFactory::class;
     }
 
     public function onTwigInitialized(): void
@@ -72,9 +76,11 @@ class GravRayPlugin extends Plugin
         );
     }
 
-    public function gray_ray(...$args): string
+    public function gray_ray(...$args)
     {
-        ray(...$args);
-        return '';
+        $ray = ray(...$args);
+
+        return new TwigRayProxy($ray);
     }
+
 }
