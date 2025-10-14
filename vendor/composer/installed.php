@@ -3,7 +3,7 @@
         'name' => 'trilbymedia/grav-ray',
         'pretty_version' => 'dev-develop',
         'version' => 'dev-develop',
-        'reference' => '336ccc6da6f63365f6cd4853c97ae044cf6d11d4',
+        'reference' => '461c15c398d7c8edf56c7e51d8f3169120694297',
         'type' => 'grav-plugin',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
@@ -127,7 +127,7 @@
         'trilbymedia/grav-ray' => array(
             'pretty_version' => 'dev-develop',
             'version' => 'dev-develop',
-            'reference' => '336ccc6da6f63365f6cd4853c97ae044cf6d11d4',
+            'reference' => '461c15c398d7c8edf56c7e51d8f3169120694297',
             'type' => 'grav-plugin',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
