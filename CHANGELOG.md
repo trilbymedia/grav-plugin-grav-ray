@@ -1,3 +1,9 @@
+# v2.0.1
+## 10/29/2025
+
+1. [](#improved)
+    * fixed a deprecation warning
+
 # v2.0.0
 ## 10/13/2025
 

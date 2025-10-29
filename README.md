@@ -10,7 +10,7 @@ ray(['a' => 1, 'b' => 2])->color('red');
 ray('multiple', 'arguments', 'are', 'welcome');
 ```
 
-You of course, need to install the [standalone Ray debugger desktop app](https://myray.app/) for the plugin to function properly.
+You of course, need to install the [standalone Ray debugger desktop app](https://myray.app/) or the free [Raygun CLI client](https://github.com/yetidevworks/raygun) for the plugin to function properly.
 
 ## Installation
 
