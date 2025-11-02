@@ -1,3 +1,9 @@
+# v2.0.2
+## 11/02/2025
+
+1. [](#improved)
+    * Updated vendor dependencies
+
 # v2.0.1
 ## 10/29/2025
 
@@ -10,7 +16,7 @@
 1. [](#new)
     * Add fluent Twig support, e.g. `{% do ray(page.title).blue().label('Page title') %}`
 1. [](#improved)
-    * Updated vendor dependenies
+    * Updated vendor dependencies
 
 # v1.0.0
 ## 10/08/2024
