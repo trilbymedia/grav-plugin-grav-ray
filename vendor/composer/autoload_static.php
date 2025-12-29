@@ -4,92 +4,80 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitb016bb63bd0b6ac8dc90f8ed797ecd8d
+class ComposerStaticInit6dbe27ab36e7a8d58162dbe667532705
 {
     public static $files = array (
         '6e3fae29631ef280660b3cdad06f25a8' => __DIR__ . '/..' . '/symfony/deprecation-contracts/function.php',
-        '0e6d7bf4a5811bfa5cf40c5ccd6fae6a' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/bootstrap.php',
         'e39a8b23c42d4e1452234d762b03835a' => __DIR__ . '/..' . '/ramsey/uuid/src/functions.php',
-        '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         '3074abeef0bacf5811f59e9dee6311d1' => __DIR__ . '/..' . '/spatie/ray/src/helpers.php',
     );
 
     public static $prefixLengthsPsr4 = array (
-        'S' => 
+        'S' =>
         array (
-            'Symfony\\Polyfill\\Mbstring\\' => 26,
             'Symfony\\Contracts\\Service\\' => 26,
-            'Symfony\\Component\\VarDumper\\' => 28,
             'Symfony\\Component\\Stopwatch\\' => 28,
             'Spatie\\Ray\\' => 11,
             'Spatie\\Macroable\\' => 17,
             'Spatie\\Backtrace\\' => 17,
         ),
-        'R' => 
+        'R' =>
         array (
             'Ramsey\\Uuid\\' => 12,
             'Ramsey\\Collection\\' => 18,
         ),
-        'P' => 
+        'P' =>
         array (
             'Psr\\Container\\' => 14,
         ),
-        'G' => 
+        'G' =>
         array (
             'Grav\\Plugin\\GravRay\\' => 20,
         ),
-        'B' => 
+        'B' =>
         array (
             'Brick\\Math\\' => 11,
         ),
     );
 
     public static $prefixDirsPsr4 = array (
-        'Symfony\\Polyfill\\Mbstring\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/polyfill-mbstring',
-        ),
-        'Symfony\\Contracts\\Service\\' => 
+        'Symfony\\Contracts\\Service\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/service-contracts',
         ),
-        'Symfony\\Component\\VarDumper\\' => 
-        array (
-            0 => __DIR__ . '/..' . '/symfony/var-dumper',
-        ),
-        'Symfony\\Component\\Stopwatch\\' => 
+        'Symfony\\Component\\Stopwatch\\' =>
         array (
             0 => __DIR__ . '/..' . '/symfony/stopwatch',
         ),
-        'Spatie\\Ray\\' => 
+        'Spatie\\Ray\\' =>
         array (
             0 => __DIR__ . '/..' . '/spatie/ray/src',
         ),
-        'Spatie\\Macroable\\' => 
+        'Spatie\\Macroable\\' =>
         array (
             0 => __DIR__ . '/..' . '/spatie/macroable/src',
         ),
-        'Spatie\\Backtrace\\' => 
+        'Spatie\\Backtrace\\' =>
         array (
             0 => __DIR__ . '/..' . '/spatie/backtrace/src',
         ),
-        'Ramsey\\Uuid\\' => 
+        'Ramsey\\Uuid\\' =>
         array (
             0 => __DIR__ . '/..' . '/ramsey/uuid/src',
         ),
-        'Ramsey\\Collection\\' => 
+        'Ramsey\\Collection\\' =>
         array (
             0 => __DIR__ . '/..' . '/ramsey/collection/src',
         ),
-        'Psr\\Container\\' => 
+        'Psr\\Container\\' =>
         array (
             0 => __DIR__ . '/..' . '/psr/container/src',
         ),
-        'Grav\\Plugin\\GravRay\\' => 
+        'Grav\\Plugin\\GravRay\\' =>
         array (
             0 => __DIR__ . '/../..' . '/classes',
         ),
-        'Brick\\Math\\' => 
+        'Brick\\Math\\' =>
         array (
             0 => __DIR__ . '/..' . '/brick/math/src',
         ),
@@ -103,9 +91,9 @@ class ComposerStaticInitb016bb63bd0b6ac8dc90f8ed797ecd8d
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitb016bb63bd0b6ac8dc90f8ed797ecd8d::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitb016bb63bd0b6ac8dc90f8ed797ecd8d::$prefixDirsPsr4;
-            $loader->classMap = ComposerStaticInitb016bb63bd0b6ac8dc90f8ed797ecd8d::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit6dbe27ab36e7a8d58162dbe667532705::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit6dbe27ab36e7a8d58162dbe667532705::$prefixDirsPsr4;
+            $loader->classMap = ComposerStaticInit6dbe27ab36e7a8d58162dbe667532705::$classMap;
 
         }, null, ClassLoader::class);
     }
