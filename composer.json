@@ -16,6 +16,9 @@
     "php": ">=7.1.3",
     "spatie/ray": "^1.41"
   },
+  "replace": {
+    "symfony/var-dumper": "*"
+  },
   "autoload": {
     "psr-4": {
       "Grav\\Plugin\\GravRay\\": "classes/"
