@@ -1,3 +1,9 @@
+# v2.0.3
+## 12/29/2025
+
+1. [](#improved)
+    * Addressed a `var-dumper` compatibility error
+
 # v2.0.2
 ## 11/02/2025
 
