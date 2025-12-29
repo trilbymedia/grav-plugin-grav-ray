@@ -1,6 +1,6 @@
 # Grav Ray Plugin
 
-The **Grav Ray** Plugin is an extension for [Grav CMS](https://github.com/getgrav/grav). Grav plugin for the [Spatie Ray](https://myray.app/docs/getting-started/introduction) debugger app.
+The **Grav Ray** Plugin is an extension for [Grav CMS](https://github.com/getgrav/grav). Grav plugin for the [Spatie Ray](https://myray.app/docs/getting-started/introduction) debugger.
 
 ```php
 ray('Hello world');
@@ -10,7 +10,7 @@ ray(['a' => 1, 'b' => 2])->color('red');
 ray('multiple', 'arguments', 'are', 'welcome');
 ```
 
-You of course, need to install the [standalone Ray debugger desktop app](https://myray.app/) or the free [Raygun CLI client](https://github.com/yetidevworks/raygun) for the plugin to function properly.
+You need to install the [standalone Ray debugger desktop app](https://myray.app/) or the **FREE** [Raygun CLI client](https://github.com/yetidevworks/raygun) for the plugin to function properly.
 
 ## Installation
 
